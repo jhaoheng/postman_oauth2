@@ -18,3 +18,8 @@
 - use this api
   - https://www.googleapis.com/oauth2/v3/tokeninfo?access_token=
 - if fail, you would get `{"error_description": "Invalid Value"}`
+
+## But it only work for `Server-Side` access, how to work on CICD?
+
+- Check the [For Service Accounts](https://developers.google.com/identity/protocols/oauth2/service-account) from google doc.
+- It could help you to get the `Access Token` without authentication by the client browser.
